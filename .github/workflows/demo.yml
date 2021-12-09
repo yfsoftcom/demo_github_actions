@@ -9,5 +9,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: run main.sh
-      run: ./main.sh "github actions is cool"
+      run: chmod +x ./main.sh && ./main.sh "github actions is cool"
       
