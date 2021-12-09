@@ -1,8 +1,11 @@
 # demo_github_actions
 
+- Koa http restful api
 
-Actions pipeline, 全新的，没有任何依赖的环境
+- /api/foo
+  - { version: 1.0, hostname: xxx }
 
-checkout source.
+- jest
+  - http
+  - supertest
 
-actions, add steps: clone code.
