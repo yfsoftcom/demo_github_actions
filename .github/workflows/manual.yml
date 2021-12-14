@@ -20,4 +20,4 @@ jobs:
     - name: run test
       run: echo "No specific test scripts!"
     - name: 自定义命令
-      run: npm i
+      run: go version
