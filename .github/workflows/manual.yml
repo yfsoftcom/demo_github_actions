@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   # This workflow contains a single job called "greet"
-  greet:
+  pipeline:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -19,3 +19,5 @@ jobs:
       run: echo "No specific type check scripts!"
     - name: run test
       run: echo "No specific test scripts!"
+    - name: 自定义命令
+      run: npm i
