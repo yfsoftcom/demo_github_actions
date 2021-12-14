@@ -5,6 +5,10 @@ name: 手动执行的一次Pipeline
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   workflow_dispatch:
 jobs:
   # This workflow contains a single job called "greet"
