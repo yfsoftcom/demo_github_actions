@@ -15,5 +15,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
+    - name: run type check
+      run: echo "No specific type check scripts!"
     - name: run test
       run: echo "No specific test scripts!"
